@@ -1,0 +1,35 @@
+version: 1
+project:
+  title: Fusion Data Science Resources
+  authors:
+    - name: Samuel Jackson
+  github: sljack1992/fusion-data-science-resources
+  license: MIT
+  description: >
+    Curated data science notebooks for training fusion energy researchers.
+    Covers signal classification, shapelet methods, and machine learning
+    on tokamak diagnostic data from the MAST experiment.
+  keywords:
+    - fusion energy
+    - plasma physics
+    - data science
+    - machine learning
+    - time series
+    - shapelets
+    - ELM detection
+  settings:
+    output_matplotlib_strings: remove
+  toc:
+    - file: intro.md
+    - file: shapelets.ipynb
+      title: Learning to Label Data with Shapelets
+
+site:
+  template: book-theme
+  options:
+    logo: ""
+    folders: true
+    favicon: ""
+    nav:
+      - title: GitHub
+        url: https://github.com/sljack1992/fusion-data-science-resources
