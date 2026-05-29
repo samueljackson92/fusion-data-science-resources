@@ -23,6 +23,8 @@ project:
     - file: intro.md
     - file: shapelets.ipynb
       title: Learning to Label Data with Shapelets
+    - file: triple_product.ipynb
+      title: Computing the triple product for MAST shots
 
 site:
   template: book-theme
